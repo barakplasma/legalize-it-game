@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "legalize-it-game
+    "name": "legalize-it-game",
     "builds": [
         { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "dist }
     ]
