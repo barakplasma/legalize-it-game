@@ -1,59 +1,19 @@
-Phaser 3 with Parcel
+Legalize Trees
 ====================
 
-[Parcel is a fast, zero-config web application bundler](https://parceljs.org).
-
-This is a simple Phaser game template using Parcel, and based on [Making your first Phaser 3 game](https://phaser.io/tutorials/making-your-first-phaser-3-game).
-
-Most common transformations ([CoffeeScript](https://parceljs.org/coffeeScript.html), [Babel/Flow](https://parceljs.org/javascript.html), [TypeScript](https://parceljs.org/typeScript.html)) work “out of the box”.
+This is a simple Phaser game made using a template. The template is based on Parcel, and described in [Making your first Phaser 3 game](https://phaser.io/tutorials/making-your-first-phaser-3-game). I mostly customized the end screen, sprites, and other assets.
 
 Use
 ---
 
 ```sh
-# If you don't have Parcel, install it:
-npm install -g parcel-bundler
+npm install
 
 # Auto-compile and run dev server:
 npm run start
 
 # Compile for production:
 npm run build
-```
-
-You can edit these scripts in [package.json](./package.json) to suit your needs.
-
-See:
-
-- [Parcel: Getting Started](https://parceljs.org/getting_started.html)
-- [Parcel: Production](https://parceljs.org/production.html)
-- [Parcel: CLI](https://parceljs.org/cli.html)
-
-Game assets
------------
-
-Static assets used in your JavaScript need to be imported or required:
-
-```javascript
-require('../assets/sky.png') // -> './sky.8fef0675.png'
-```
-
-See [bootScene](./src/app/bootScene.js) for an example.
-
-If you prefer, you can [use a plugin to copy static assets](https://www.npmjs.com/search?q=parcel%20plugin%20copy) instead.
-
-Package aliasing
-----------------
-
-You can use [package.alias](https://parceljs.org/module_resolution.html#aliasing) to specify an alternative Phaser build, e.g.,
-
-```json
-{
-  "name": "my-phaser-game",
-  "alias": {
-    "phaser": "./node_modules/phaser/src/phaser-arcade-physics.js"
-  }
-}
 ```
 
 Hot reload
