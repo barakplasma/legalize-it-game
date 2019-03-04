@@ -16,6 +16,10 @@ npm run start
 npm run build
 ```
 
+Demo
+----------
+Should be auto-deployed on each PR and push
+
 Hot reload
 ----------
 
