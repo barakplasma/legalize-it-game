@@ -18,7 +18,7 @@ npm run build
 
 Demo
 ----------
-Should be auto-deployed on each PR and push
+Should be auto-deployed on each PR and push, for example to https://legalize-it-game-773fss6sa.now.sh/
 
 Hot reload
 ----------
